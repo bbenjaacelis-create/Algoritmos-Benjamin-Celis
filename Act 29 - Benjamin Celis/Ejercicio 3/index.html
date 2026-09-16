@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/script.js" defer></script>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Notas Temporales</h2>
+
+        <textarea id="nota" rows="3" placeholder="Escriba su nota..."></textarea>
+
+        <div class="btns">
+            <button class="btn-guardar" onclick="guardarNota()">Guardar</button>
+            <button class="btn-borrar" onclick="borrarNota()">Borrar</button>
+        </div>
+
+        <h3>Nota guardada:</h3>
+        <div id="resultado" class="box"></div>
+    </div>
+
+</body>
+</html>

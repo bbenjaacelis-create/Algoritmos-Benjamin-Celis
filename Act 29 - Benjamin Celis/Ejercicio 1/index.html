@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferencias</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/script.js" defer></script>
+</head>
+<body>
+
+    <div class="card">
+        <h2 id="mensaje">Bienvenido</h2>
+        <label>Nombre:</label>
+        <input type="text" id="nombre">
+
+        <label>Color de fondo:</label>
+        <select id="color">
+            <option value="#ffffff">Blanco</option>
+            <option value="#d1ecf1">Azul claro</option>
+            <option value="#d4edda">Verde claro</option>
+            <option value="#e2e3e5">Gris claro</option>
+        </select>
+
+        <button onclick="guardarPreferencias()">Guardar</button>
+    </div>
+
+</body>
+</html>
